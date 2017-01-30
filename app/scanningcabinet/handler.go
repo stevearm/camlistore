@@ -45,8 +45,8 @@ import (
 )
 
 const (
-	maxScan = 50 // number of scans fetched/displayed. arbitrary.
-	maxDue  = 30 // number of due documents fetched
+	maxScan = 500 // number of scans fetched/displayed. arbitrary.
+	maxDue  = 30  // number of due documents fetched
 
 	scanNodeType     = "scanningcabinet:scan"
 	documentNodeType = "scanningcabinet:doc"
