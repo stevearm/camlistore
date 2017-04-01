@@ -119,4 +119,9 @@ const (
 
 	// Version is http://schema.org/version
 	Version = "version"
+
+	// http://dublincore.org/documents/dcmi-terms/#terms-hasFormat
+	// Points to alternate representations of this node. Used to store derived
+	// representations that are difficult to regenerate. eg OCR results
+	AlternativeFormat = "hasFormat"
 )
